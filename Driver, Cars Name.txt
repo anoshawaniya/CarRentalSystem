@@ -1,0 +1,60 @@
+*DRIVER*
+
+DID | DriverName | Address | DOB 
+
+1, 'Adeel Khan', '123 Main St, Karachi, Pakistan', '1990-05-15'
+2, 'Shokat Ali', '456 Elm St, Karachi, Pakistan', '1988-12-28'
+3, 'Muhammad Iqbal', '789 Oak St, Karachi, Pakistan', '1995-03-10'
+4, 'Iqbal Ahmed', '234 Maple Rd, Karachi, Pakistan', '1992-08-02'
+5, 'Samiullah Khan', '567 Pine St, Karachi, Pakistan', '1985-11-17'
+6, 'Ali Rehman', '890 Birch St, Karachi, Pakistan', '1997-02-25'
+7, 'Bilal Iqbal', '321 Cedar Rd, Karachi, Pakistan', '1989-06-12'
+8, 'Muhammad Akhtar', '654 Redwood St, Karachi, Pakistan', '1991-09-05'
+9, 'Yousuf Ahmed', '432 Oakwood Rd, Karachi, Pakistan', '1994-04-21'
+10, 'Jahanzeb Khan', '765 Elmwood St, Karachi, Pakistan', '1987-07-08'
+
+
+*---- CARS SECTION ----*
+*Regular*
+
+VID | VName | Color | Reg. no| Capacity | Model | Make | Body type | Fuel Type | Condition | Rental Cost
+
+1 - Toyota Corolla X - Super White - AVG-098 - 5 - Corolla - Toyota - Sedan - Petrol - Good - 20,000 per day 
+
+2 - Honda Civic X RS - Silver - DBH-1198 - 5 - Civic - Honda - Sedan - Petrol - Good - 23,000 per day
+
+3 - Toyota Hillux Revo - White - ADL-032 - 5 - Revo - Toyota - Truck - Petrol - Good - 40,000 per day 
+
+4 - Toyota Land Crusier - Black - POF-994 - 7 - Land Cruiser - Toyota - SUV - Petrol - Good - 30,000 per day 
+
+5 - Oshan X7 - White - HWFQ-44 - 7 - X7 - Oshan - SUV - Petrol - Good - 27,000 per day
+
+6 - Toyota Fortunier Legender - White - QLG-450 - 7 - Fortunier - Toyota - SUV - Petrol - Good - 35,000 per day
+
+7 - Hyundai Sonata - Grey - LLA-991 - 5 - Sonata - Hyundai - SUV - Petrol - Good - 15,000 per day 
+
+8 - Honda Civic X Oriel - White - BXZ-1921 - 5 - Civic - Honda - Sedan - Petrol - Good - 21,000 per day
+
+
+
+
+
+*Luxury*
+
+VID | VName | Color | Reg. no| Capacity | Model | Make | Body type | Fuel Type | Condition | Rental Cost
+
+1 - Audi R8  - White - VL-4055 - 2 - R8 - Audi - Coupe - Petrol - Good - 38,000 
+
+2 - Audi R8 Spyder - White - MK-5012 - 2 - R8 - Audi - Coupe - Petrol - Good - 42,000 
+
+3 - Ferrari Portofino M - BLack - DDL-172 - 2 - Portofino - Ferrari - grand touring sports car - Petrol - Good - 70,000 
+
+4 - BMW M3 Competetion - Perl White - PX-994 - 4 - M3 - BMW - Sedan - Petrol - Good - 36,000
+
+5 - Lamborghini HURACÁN EVO Spyder - Silver - HQ-4178 - 2 - HURACÁN - Lamborghini - Sports Car - Petrol - Good - 73,000
+
+6 - Ferrari Portofino M - White - LP-182 - 2 - Portofino - Ferrari - grand touring sports car - Petrol - Good - 70,000 
+
+7 - Audi R8 Spyder - Blue - MK-5007 - 2 - R8 - Audi - Coupe - Petrol - Good - 42,000 
+
+8 -  lamborghini HURACÁN STERRATO - Grey - AW-4190 - 2 - HURACÁN - Lamborghini - Sports Car - Petrol - Good - 80,000

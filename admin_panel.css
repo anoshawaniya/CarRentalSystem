@@ -1,0 +1,136 @@
+body {
+    background-color: black !important;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navigationbar {
+    background:#222831;
+    color: #fff;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    padding: 5px 0;
+    border-radius: 50px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 60px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  ul li {
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 12px;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em; 
+    font-weight: 700;
+    transition: 0.5s;
+    padding-left: 8px;
+  }
+  
+  ul:hover li a {
+    color: #0002;
+    text-decoration: none;
+  }
+  
+  ul li:hover a {
+    color: #393E46;
+    background: transparent;
+  }
+  
+  ul li a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: #00FFF5;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0%;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 510px;
+    transition: letter-spacing 0.5s, left 0.5s;
+  }
+  
+  ul li a:hover:before {
+    content: attr(data-text);
+    opacity: 5;
+    left: 50%;
+    letter-spacing: 10px;
+    width: 1800px;
+    height: 1800px;
+  }
+  
+
+
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 12% !important;
+    margin-bottom: 10%;
+    font-size: 4rem !important;
+}
+
+.button-container {
+    margin-top: 6%;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+/* Add margin to create gaps between buttons */
+.button-container button {
+    margin-right: 20px;
+}
+
+button {
+    background: linear-gradient(to top, #00ADB5, #7be2d8);
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 173, 181, 0.7);
+    transition: box-shadow 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 25px rgba(0, 173, 181, 0.9); /* Increase glow on hover */
+    background: linear-gradient(to right, #00FFF5, #7be2d8) !important;
+    color: black;
+}
